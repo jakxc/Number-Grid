@@ -1,8 +1,8 @@
 function Footer(props) {
     return (
         <div className="footer">
-            <button onClick={props.handleAddClick}>Plus</button>
-            <button onClick={props.handleMinusClick}>Minus</button>
+            <button className="btn" onClick={props.handleAddClick}>+</button>
+            <button className="btn" onClick={props.handleMinusClick}>-</button>
         </div>
     )
 }
