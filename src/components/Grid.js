@@ -4,8 +4,10 @@ function Grid(props) {
     })
 
     return (
-        <div className="grid-container">
-            {gridElements}
+        <div className="content-container">
+            <div className="grid-container">
+                {gridElements}
+            </div>
         </div>
     )
 }
